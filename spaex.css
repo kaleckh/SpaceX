@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    background-image: url(https://www.spacex.com/static/images/backgrounds/splashdown_1.webp);
+    visibility: inherit;
+    opacity: 1;
+}
+
+.header {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.header>div {
+    padding-right: 24px;
+    font: 16px/26px D-DIN-Regular, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.lastItem {
+    margin-left: auto;
+}
+
+.space {
+    height: 70%;
+    width: 70%;
+}
+
+.spacex {
+    margin-left: 50px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    width: 50%;
+}
+
+.mission {
+    font: 20px/32px D-DIN-Medium, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto auto 10px;
+}
+
+.crew {
+    font: 100px/85px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+}
